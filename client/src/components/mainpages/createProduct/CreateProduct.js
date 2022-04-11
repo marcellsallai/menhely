@@ -3,6 +3,7 @@ import axios from 'axios'
 import {GlobalState} from '../../../GlobalState'
 import Loading from '../utils/loading/Loading'
 import {useHistory, useParams} from 'react-router-dom'
+import "./createProduct.css";
 
 const initialState = {
     product_id: '',

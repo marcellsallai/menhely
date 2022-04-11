@@ -42,6 +42,9 @@ function Header() {
       <>
         {/* <li><Link to="/fooldal">Kezdőlap</Link></li> */}
         <li>
+          <Link to="/kezdo">Állataink</Link>
+        </li>
+        <li>
           <Link to="/history">Örökbefogadás</Link>
         </li>
         <li>
@@ -67,11 +70,13 @@ function Header() {
       </div>
 
       <div className="logo">
+        <Link to="/fooldal">
         <img
           src={Paw}
           alt="kép"
           style={{ width: "auto", height: "60px", marginBottom: "5px" }}
         />
+        </Link>
         {isAdmin ? (
           <Link to="/kezdo">
             <h1 style={{ fontFamily: "Wellfleet", textIndent: "15px" }}>
@@ -79,7 +84,7 @@ function Header() {
             </h1>
           </Link>
         ) : (
-          <Link to="/kezdo">
+          <Link to="/fooldal">
             <h1 style={{ fontFamily: "Wellfleet", textIndent: "15px" }}>
               Fürge lábak <br />
               állatmenhely

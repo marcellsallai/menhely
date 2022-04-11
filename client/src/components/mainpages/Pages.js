@@ -23,6 +23,7 @@ function Pages() {
   return (
     <Switch>
       <Route path="/" exact component={Fooldal} />
+      <Route path="/fooldal" exact component={Fooldal} />
       <Route path="/kezdo" exact component={Products} />
       <Route path="/detail/:id" exact component={DetailProduct} />
 

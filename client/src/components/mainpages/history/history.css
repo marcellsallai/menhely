@@ -44,4 +44,17 @@ table a{
 
 .kedves{
     text-align: center;
+    font-family: "Wellfleet"
 }
+
+.orokszoveg{
+    font-family: "Wellfleet";
+    line-height: 180%;
+    text-align: left ;
+    font-size: larger;
+}
+
+hr {
+    border-top: 3px solid black;
+}
+
